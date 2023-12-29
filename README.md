@@ -1,13 +1,16 @@
-# Faculty Appointment Booking System
+# Airbnb Reservation System
 
-The Faculty Appointment Booking System is a Java program designed to facilitate appointment scheduling between students and teachers. This system allows students to schedule appointments with their teachers during specific class periods within the school day. Each appointment has a duration, and the teacher must have a consecutive block of available minutes that meets or exceeds the requested duration.
+The Airbnb Reservation System is a Java program designed to model and manage reservations for accommodations using the AirbnbReservation class. This class provides a flexible and extensible solution for handling reservations within the context of an Airbnb-like platform.
 
 ## Features
 
-Appointment Scheduling: Students can request and schedule appointments with their teachers.
-Class Periods: Appointments can be scheduled during one of eight class periods numbered 1 through 8.
-Duration Management: The program checks for the availability of consecutive minutes within a class period to accommodate the requested duration.
-Time Constraints: Appointments must start and end within the same class period.
+Reservation Details: Capture information about the reservation, including guest details, accommodation details, check-in and check-out dates, etc.
+
+Validation: Validate reservation details to ensure consistency and correctness.
+
+Duration Calculation: Calculate the duration of a reservation based on check-in and check-out dates.
+
+Pricing: Implement a pricing mechanism, considering factors like the accommodation's base price and any additional fees.
 
 ## Technology
 
